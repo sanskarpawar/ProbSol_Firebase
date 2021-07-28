@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sanskar4"
+    tools:context=".ProfileActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/visit_profile_image"
+        android:layout_width="240dp"
+        android:layout_height="219dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:src="@drawable/profile_image"
+        app:civ_border_width="4dp"
+        app:civ_border_color="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/visit_user_name"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/visit_profile_image"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/sender_messages_layout"
+        android:text="user name"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/visit_profile_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hey i'm using Sts Talks App."
+        android:layout_below="@+id/visit_user_name"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/corner"
+        android:textColor="@color/black"
+
+        />
+        <Button
+            android:id="@+id/send_message_request_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/visit_profile_status"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="65dp"
+            android:textColor="@android:color/background_light"
+            android:background="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Send Message"
+            android:textAllCaps="false"
+            />
+
+    <Button
+        android:id="@+id/decline_message_request_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/send_message_request_button"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:textColor="@android:color/background_light"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Cancel Chat Request"
+        android:textAllCaps="false"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:id="@+id/display_no_of_ups1"
+        android:layout_width="83dp"
+        android:layout_height="61dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/decline_message_request_button"
+        android:layout_marginStart="138dp"
+        android:background="@drawable/corner"
+        android:text="0 Ups"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/ups_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_below="@+id/decline_message_request_button"
+        android:layout_marginEnd="-138dp"
+        android:layout_toStartOf="@+id/display_no_of_ups1"
+
+        android:background="@color/white"
+        android:padding="1dp"
+        app:srcCompat="@drawable/ic_up" />
+
+    <ImageButton
+        android:id="@+id/tiplinkprofile"
+        android:layout_width="76dp"
+        android:layout_height="50dp"
+
+        android:layout_below="@+id/decline_message_request_button"
+
+        android:layout_toEndOf="@+id/display_no_of_ups1"
+        android:background="@drawable/sender_messages_layout"
+        android:tooltipText="Send tip"
+        app:srcCompat="@drawable/ic_tipsvg1"
+        android:visibility="invisible"
+
+        />
+
+    <TextView
+        android:id="@+id/tiptext1"
+        android:layout_width="76dp"
+        android:layout_height="30dp"
+
+        android:layout_below="@+id/tiplinkprofile"
+        android:layout_toEndOf="@+id/display_no_of_ups1"
+        android:background="@drawable/corner"
+        android:text="Send Tip"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,119 @@
+[class*='btn-'] {
+	box-sizing: border-box;
+	height:24px; width:24px;
+	border-radius: 3px;
+	background: rgba(0,0,0,0.2);
+	cursor:pointer;
+	text-align: center;
+	z-index: 9000;
+	-webkit-font-smoothing: antialiased;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	text-decoration: none;
+}
+.btn-dl, .btn-open {
+	position: relative;
+}
+.btn-open {
+	position: absolute;
+	top: 8px; right: 38px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#fff;
+	font-size: 10px;
+	letter-spacing: 0.5px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	width: auto;
+	line-height: 24px;
+}
+.btn-dl {
+	position: absolute;
+	top: 8px; right: 8px;
+	height:24px; width:24px;
+}
+.btn-dl img {
+	width:10px; height:11px;
+	position: absolute;
+	left: 50%; margin-left: -5px;
+	top: 7px;
+}
+[class*='btn-']:hover {
+	background: rgba(0,0,0,0.4);
+}
+
+/* Badge */
+.badge {
+	position: absolute;
+	z-index: 900;
+	bottom:8px; left:8px;
+
+	background: url("/static/badgeA.png") no-repeat;
+	width: 163px; height:38px;
+}
+
+.badge.alternative {
+	background: url("/static/badgeB.png") no-repeat;
+	width: 193px; height:35px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+	.badge {
+		background: url("/static/badgeA@2x.png") no-repeat;
+		background-size: 100%;
+	}
+
+	.badge.alternative {
+		background: url("/static/badgeB@2x.png") no-repeat;
+		background-size: 100%;
+	}
+}
+
+
+
+/* Devices */
+/* ------- */
+/* iPad 1 & 2 */
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) {
+	.btn-open,
+	.btn-dl,
+	.badge {
+		display: none;
+	}
+}
+/* Retina iPads */
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (-webkit-min-device-pixel-ratio:2) {
+	.btn-open,
+	.btn-dl,
+	.badge {
+		display: none;
+	}
+}
+/* iPhone 5 */
+@media only screen and (min-device-width:320px) and (max-device-width:568px) {
+	.btn-open,
+	.btn-dl,
+	.badge {
+		display: none;
+	}
+}
+/* iPhone 6 */
+@media only screen and (min-device-width:375px) and (max-device-width:667px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio:2) {
+	.btn-open,
+	.btn-dl,
+	.badge {
+		display: none;
+	}
+}
+/* Nexus 5 */
+@media only screen and (min-device-width: 360px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3.0) {
+	.btn-open,
+	.btn-dl,
+	.badge {
+		display: none;
+	}
+}

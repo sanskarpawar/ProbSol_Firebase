@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "458754389665",
+    "firebase_url": "https://stschat-74b27.firebaseio.com",
+    "project_id": "stschat-74b27",
+    "storage_bucket": "stschat-74b27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458754389665:android:d97177a286892df2",
+        "android_client_info": {
+          "package_name": "com.example.lap.stschat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458754389665-b86lvqtfve0qanvh8n6uqj298cnip51i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lap.stschat",
+            "certificate_hash": "0e563dddd6d069c80a7797bcbb1e31d89ba8369a"
+          }
+        },
+        {
+          "client_id": "458754389665-e52n9t9vt3ru7lsed4d55vul4fra3vc2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA30Va0_WmkxNBNVCSBEFk_DNqT1DAkiN4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458754389665-e52n9t9vt3ru7lsed4d55vul4fra3vc2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

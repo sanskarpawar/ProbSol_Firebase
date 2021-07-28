@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/custom_profile_image"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:cropToPadding="true"
+        android:src="@drawable/profile_image" />
+        <TextView
+            android:id="@+id/custom_profile_name"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Dispaly UserName"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold"
+            android:textSize="17sp"
+
+
+            />
+
+
+    <TextView
+        android:id="@+id/custom_user_last_seen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/custom_profile_image"
+        android:layout_alignParentStart="true"
+        android:text="Last Seen"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+
+
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/tiplink1"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/receiver_messages_layout"
+        android:tooltipText="tip"
+        app:srcCompat="@drawable/ic_tipsvg1" />
+
+    <ImageView
+        android:id="@+id/messagewhat"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="0dp"
+        android:layout_toStartOf="@+id/custom_profile_image"
+        app:srcCompat="@drawable/ic_conversation" />
+
+    <TextView
+        android:id="@+id/messagestatus"
+        android:layout_width="30dp"
+        android:layout_height="7dp"
+        android:layout_below="@+id/custom_profile_name"
+        android:layout_toStartOf="@+id/custom_profile_image"
+        android:text="read"
+
+        android:textAlignment="center"
+        android:textSize="6dp"
+        android:textColor="@color/black"
+
+
+        />
+</RelativeLayout>

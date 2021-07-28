@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Find By Fields"
+        android:id="@+id/main_find_member_option"
+        app:showAsAction="never"
+        >
+    </item>
+
+    <item
+        android:title="Settings"
+        android:id="@+id/main_find_setting_option"
+        app:showAsAction="never"
+        >
+    </item>
+    <item
+        android:title="Add tip link"
+        android:id="@+id/main_tip_link"
+        app:showAsAction="never"
+        >
+    </item>
+
+    <item
+        android:title="Logout"
+        android:id="@+id/main_find_logout_option"
+        app:showAsAction="never"
+        >
+    </item>
+    <item
+        android:title="Reset Password"
+        android:id="@+id/main_reset_password"
+        app:showAsAction="never"
+        >
+    </item>
+
+
+    <item
+        android:id="@+id/mybutton"
+        android:title=""
+        app:showAsAction="always"
+        android:icon="@drawable/recruitment"
+        android:tooltipText="Find By Field"
+        />
+
+
+
+    <item
+        android:id="@+id/mybutton1"
+        android:title=""
+        app:showAsAction="always"
+        android:icon="@drawable/ic_note"
+        android:tooltipText="Add Note"
+
+        />
+
+
+</menu>

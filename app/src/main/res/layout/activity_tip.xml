@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <include
+        android:id="@+id/tip_bar_toolbar"
+        layout="@layout/app_bar_layout"></include>
+
+
+
+
+
+    <TextView
+
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="163dp"
+        android:text="Please enter the link of payment(paypal.me Link) on which you will receive the tip from other users if they like your Query response."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="251dp"
+        />
+
+    <EditText
+        android:id="@+id/addtip"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="231dp"
+        android:ems="10"
+        android:hint="Paste your link here..."
+        android:background="@drawable/corner"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColorLink="@color/blueori"
+        android:autoLink="web"
+
+
+
+
+        />
+
+    <Button
+        android:id="@+id/updatelink"
+
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/addtip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+
+
+        android:text="Update Link"
+
+        android:textColor="@color/white"
+        android:textSize="22dp" />
+</RelativeLayout>

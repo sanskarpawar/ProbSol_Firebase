@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ProbSol</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="serverkey">AAAAas_kdqE:APA91bHxt1wKtGSfU7y7wDuB1Wrkq_XE_mekhndc4Y9DChFS3ZC3RsihZaiS02rTHYJCMeMLSnGKlvslMV8k7QGaFArhOzljPblyt-WFt55vSopcXUmk-WMBMnFHbZzuwXpoV1ZTj9zxo-UQqkQQb_peKTeabJgq0w</string>
+
+</resources>
