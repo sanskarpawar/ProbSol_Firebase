@@ -20,7 +20,8 @@ gif Coming Soon
 **Database:** Firebase
 
 ## APK
-  [Download APK](https://github.com/sanskarpawar/ProbSol_Firebase/blob/master/Screenshots/ProbSol.apk)
+  [Download APK](https://github.com/sanskarpawar/ProbSol_Firebase/raw/master/Screenshots/ProbSol.apk)
+  
 #### Some Screenshots of this app
 
 
