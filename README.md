@@ -14,8 +14,15 @@ It is a knowledge-sharing Android application that can be used by anyone who has
 
 
 ## Demo
+<div style="width:100%">
+	<div style="width:50%; display:inline-block">
+		<p align="center">
+      <img align="center" src="https://github.com/sanskarpawar/ProbSol_Firebase/blob/master/Screenshots/APPGifCompressed.gif"/>
+		</p>	
+	</div>	
+</div>
 
-gif Coming Soon
+
 
   
 ## Tech Stack
