@@ -1,4 +1,11 @@
-![Logo](https://github.com/sanskarpawar/ProbSol_Firebase/blob/master/Screenshots/ProbSolPoster.jpg?raw=true)
+
+<div style="width:100%">
+	<div style="width:50%; display:inline-block">
+		<p align="center">
+         <img align="center" src="https://github.com/sanskarpawar/ProbSol_Firebase/blob/master/Screenshots/ProbSolPoster.jpg?raw=true"/>
+		</p>	
+	</div>	
+</div>
 
     
 # ProbSol
