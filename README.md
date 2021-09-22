@@ -29,7 +29,7 @@ It is a knowledge-sharing Android application that can be used by anyone who has
 
 **IDE:** Android Studio
 
-**Languges Used:** Java,XML
+**Languges Used:** Java, XML
 
 **Database:** Firebase
 
