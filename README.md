@@ -34,7 +34,7 @@ It is a knowledge-sharing Android application that can be used by anyone who has
 **Database:** Firebase
 
 ## APK
-  [Download APK](https://github.com/sanskarpawar/ProbSol_Firebase/raw/master/Screenshots/ProbSol.apk)
+ ## [Download APK](https://github.com/sanskarpawar/ProbSol_Firebase/raw/master/Screenshots/ProbSol.apk)
   
 #### Some Screenshots of this app
 
